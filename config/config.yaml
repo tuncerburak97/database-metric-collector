@@ -1,0 +1,13 @@
+databases:
+  - name: "postgres_db"
+    type: "postgres"
+    config:
+      host: "localhost"
+      port: 5432
+      user: "admin"
+      password: "admin"
+      dbName: "postgres"
+      sslMode: "require"
+      maxIdleConns: 15
+      maxOpenConns: 50
+      connMaxLifetime: 5
